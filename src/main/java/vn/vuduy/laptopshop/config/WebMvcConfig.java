@@ -25,4 +25,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void configureViewResolvers(ViewResolverRegistry registry) {
         registry.viewResolver(viewResolver());
     }
+    // ------> Hai annotation trên thay thế được cho Folder
+    // static(application.properties).
 }

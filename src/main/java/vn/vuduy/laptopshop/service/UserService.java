@@ -9,6 +9,7 @@ import vn.vuduy.laptopshop.repository.UserRepository;
 public class UserService {
     private final UserRepository userRepository;
 
+    // constructor
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }

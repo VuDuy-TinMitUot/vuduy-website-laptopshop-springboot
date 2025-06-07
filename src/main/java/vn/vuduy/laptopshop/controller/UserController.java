@@ -30,7 +30,7 @@ public class UserController {
     @RequestMapping(value = "/admin/user/create", method = RequestMethod.POST)
     public String createUserPage(Model model, @ModelAttribute("newUser") User vuduy) {
         System.out.println("Run here" + vuduy);
-        this.userService.handleSaveUser(vuduy);
+        this.userService.handleSaveUser(vuduy);//
         return "hello";
     }
 }
